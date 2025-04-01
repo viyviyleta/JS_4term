@@ -1,0 +1,50 @@
+.counter-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid lightpink;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(73, 42, 42);
+  }
+  
+  .count-text {
+    color: lightpink;
+    font-size: 48px;
+  }
+
+  .count-text.red{
+    color: rgb(228, 80, 80);
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:first-child {
+    background-color: lightpink;
+    color: black;
+  }
+  
+  .btn:last-child {
+    background-color: gray;
+    color: lightgray;
+  }
+  
+  .btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
